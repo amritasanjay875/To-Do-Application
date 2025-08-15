@@ -31,15 +31,7 @@ git clone https://github.com/amritasanjay875/To-Do-Application.git
 cd to-do-app
 ```
 
-### 2. Install Frontend Dependencies
-
-To install node-modules required for running the frontend react application, use the following command:
-```bash
-cd frontend
-npm install
-```
-
-### 3. Install Backend Dependencies
+### 2. Install Backend Dependencies
 
 To install node-modules required for running the backend server, use the following command:
 ```bash
@@ -47,7 +39,7 @@ cd backend
 npm install
 ```
 
-### 4. Install additional dependencies for backend
+### 3. Install additional dependencies for backend
 
 The application uses the following packages:
   - Express.js - Web framework. 
@@ -58,7 +50,7 @@ Install these packages manually if needed using the following command:
 npm install express cors
 ```
 
-### 5. Launch the server
+### 4. Launch the server
 
 Start the server locally using the following command:
 ```bash
@@ -68,11 +60,21 @@ nodemon index.js
 
 The server will run at: http://localhost:5000.
 
-### 6. Launch the application
 
-Once the server is launched, start the REACT application in a separate terminal using the following command:
+### 5. Install Frontend Dependencies
+
+Once the server is launched, open a new terminal in the to-do-app directory. 
+Install node-modules required for running the frontend react application, using the following command:
 ```bash
 cd frontend
+npm install
+```
+
+
+### 6. Launch the application
+
+Start the REACT application using the following command:
+```bash
 npm start
 ```
 
