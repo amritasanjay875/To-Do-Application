@@ -1,6 +1,6 @@
 # REST API
 
-A simple To-Do application built with React and Express.js, featuring functionalities for adding to-do items, viewing list of to-do items, marking to-do items as Done and deleting to-do items. The app is deployed at: .
+A simple To-Do application built with React and Express.js, featuring functionalities for adding to-do items, viewing list of to-do items, marking to-do items as Done and deleting to-do items.
 
 ## Functionalities
 
