@@ -54,7 +54,6 @@ npm install express cors
 
 Start the server locally using the following command:
 ```bash
-cd backend
 nodemon index.js
 ```
 
@@ -91,6 +90,7 @@ Once the application is running:
 - Click the Delete button in a task to remove it from the list.
 
 All actions will be reflected in real-time in the browser and stored via the backend API.
+The API endpoints can be tested using the url `http://localhost:5000/api/todos`.
 
 ## Author
 
