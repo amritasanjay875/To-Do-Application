@@ -47,7 +47,7 @@ cd backend
 npm install
 ```
 
-### 4. Install additional dependencies
+### 4. Install additional dependencies for backend
 
 The application uses the following packages:
   - Express.js - Web framework. 
@@ -62,6 +62,7 @@ npm install express cors
 
 Start the server locally using the following command:
 ```bash
+cd backend
 nodemon index.js
 ```
 
@@ -71,6 +72,7 @@ The server will run at: http://localhost:5000.
 
 Once the server is launched, start the REACT application in a separate terminal using the following command:
 ```bash
+cd frontend
 npm start
 ```
 
